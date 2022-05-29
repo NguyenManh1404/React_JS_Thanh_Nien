@@ -1,0 +1,20 @@
+.containerAdmin{
+  margin: 30;
+  
+}
+
+.tablePost{
+  width: 100%;
+}
+
+.tablePost td, .tablePost th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.inputForm{
+   width: 50%;
+   margin-left: 15%;
+  height:40px;
+  margin-top:20px;
+  margin-bottom:20px
+}

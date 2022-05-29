@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  background-color: #009cd7;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.left{
+  margin-left:10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.center{
+
+}
+.title{
+  color:white
+}
+.right{
+  margin-right:10px
+}
