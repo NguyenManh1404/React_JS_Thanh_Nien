@@ -27,7 +27,6 @@ const BodyContentComponent = ({ item }) => {
       </div>
       <div className="rightBodyContentContainer" style={{ marginLeft: 5, overflow: 'auto', height: 500 }}>
 
-
         {item.postSmall.map((item) => {
           return (
             <div className="rightBodyContentItem">

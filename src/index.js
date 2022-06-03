@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import AdminComponent from '../src/routers/admin/';
 import AddComponent from './routers/admin/AddComponent';
+import EditComponent from './routers/admin/EditComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="admin" element={<AdminComponent />} />
       <Route path="add" element={<AddComponent />} />
+      <Route path="edit/:id" element={<EditComponent />} />
     </Routes>
   </BrowserRouter>
 );

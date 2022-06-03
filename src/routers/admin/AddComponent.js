@@ -1,6 +1,6 @@
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom'
 import "./style.css";
-
 
 
 const postSmall = [
@@ -26,16 +26,11 @@ const postSmall = [
   }
 ];
 
-
-
-
-
-
-
 const AddComponent = () => {
   const [topic, setTopic] = useState();
   const [image, setImage] = useState();
   const [title, setTitle] = useState();
+  const navigate = useNavigate();
   // const [time, setTime] = useState();
   // const [menuList, setMenuList] = useState([]);
   // const [postSmall, setPostSmall] = useState([]);
@@ -69,6 +64,8 @@ const AddComponent = () => {
     } catch (error) {
       console.log(error);
     }
+    navigate('/');
+
   };
 
   return (
@@ -84,7 +81,6 @@ const AddComponent = () => {
           alignItems: "center",
         }}
       >
-
         <label>Enter your topic:
           <input
             className="inputForm"
